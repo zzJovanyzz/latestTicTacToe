@@ -1,0 +1,66 @@
+#form{
+    align-items: center;
+    margin: 20px;
+    justify-content: center;
+}
+
+#formContainer{
+    border: solid;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    left: 20%;
+    margin: auto;
+    margin-top: 5%;
+    position: absolute;
+    width: 60%;
+    z-index: 2;
+}
+
+#mainContainer{
+    align-items: center;
+    background-color: white;
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    margin-top: 5%;
+}
+
+#resetButton{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5%;
+}
+
+#submitButton{
+    display: flex;
+    margin: auto;
+}
+
+#winContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+
+
+}
+
+.row{
+    display: flex;
+}
+.spot{
+    align-items: center;
+    border: solid;
+    display: flex;
+    font-family: sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    height: 100px;
+    justify-content: center;
+    margin: 1px;
+    width: 100px;
+}

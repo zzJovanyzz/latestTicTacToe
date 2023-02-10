@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <button id="resetButton" onclick="Module.refresh()">Reset</button>
+    <div id="winContainer" ></div>
+    <div id="formContainer">
+    <form id="form">
+        <label for="playerone">Enter Player 1 Name:</label>
+        <input id="playerone" type="text">
+        <br>
+        <br>
+        <label for="playertwo">Enter Player 2 Name:</label>
+        <input id="playertwo" type="text">
+        <br>
+        <br>
+        <button id="submitButton" onclick="Module.submit()">Submit</button>
+    </form>
+    </div>
+    <div id="mainContainer">
+        <div class="row">
+            <div class="spot" onclick="Module.placeMark(this)"></div>
+            <div class="spot" onclick="Module.placeMark(this)"></div>
+            <div class="spot" onclick="Module.placeMark(this)"></div>
+        </div>
+        <div class="row">
+            <div class="spot" onclick="Module.placeMark(this)"></div>
+            <div class="spot" onclick="Module.placeMark(this)"></div>
+            <div class="spot" onclick="Module.placeMark(this)"></div>
+        </div>
+        <div class="row">
+            <div class="spot" onclick="Module.placeMark(this)"></div>
+            <div class="spot" onclick="Module.placeMark(this)"></div>
+            <div class="spot" onclick="Module.placeMark(this)"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
